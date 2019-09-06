@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio</title>
+<body style="background-image:url(C:/Users/user/Downloads/abstract-art-art-photo-2457284.jpg)">
+<div>
+<h1 style="font-family:Algerian; font-size:300%; text-align:center;">HELLO !</h1><br>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  margin-left:650px;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 30vw;
+  height:70vh;
+  border-radius:500px;
+}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 70vh;
+  boder-radius:500px;
+  width: 30vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:gray;
+}
+
+.container:hover .overlay {
+  opacity: .8;
+}
+
+.text {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+</body>
+<div class="container">
+  <img src="C:/Users/user/Desktop/mnn.jpg" height="200" class="image">
+  <div class="overlay">
+    <div class="text" >Hey Guys<br>I am Rohit</div>
+  </div>
+</div>
+<h2 style="font-family:Algerian; font-size:300%; text-align:center;">I am Rohit singh</h2><br>
+<marquee behavior="slide"><h3 style="font-family:Algerian; font-size:200%; text-align:center"> An Electrical Engineer </h3></marquee><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<div style="float:left; color:red; font-size:300%; class=box;">Skills<br>
+<p style="font-size:100%; font-family:sejoe script;" > * C & Python coder<br>
+* Web designing <br>
+</p>
+</div>
+<div style="float:right; color:red; font-size:300%;">Projects
+<p style="font-size:100%; font-family:sejoe script;" > 
+</p>
+</div>
+<br>
+<br>
+<br><br><br><br>
+<div style="font-size:200%;">
+ <h4 style="font-family:Algerian; font-size:100%; text-align:center;" >Qualifications</h4>
+ <style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+ <table style="width:100%">
+  <tr>
+    <th>Class</th>
+    <th>School</th> 
+    <th>Percentage</th>
+  </tr>
+  <tr>
+    <td>10th</td>
+    <td>Sacred heart convent school</td>
+    <td>80%</td>
+  </tr>
+  <tr>
+    <td>12th</td>
+    <td>swami harsewanand public school</td>
+    <td>82%</td>
+  </tr>
+  <tr>
+    <td>B.tech</td>
+    <td>Ajay kumar garg engineering college</td>
+    <td>85%</td>
+  </tr>
+</table>
+</div>
+<br>
+<br><>
+<br>
+<br>
+<br>
+<h5 style="font-family:Algerian; font-size:300%; text-align:center; color:gray;"><a href="C:/Users/user/Desktop/Rohitfirst/rohit.html">Gallery</a></h5>
+<h6 style="font-family:Algerian; font-size:300%; text-align:center;">About me</h6><br>
+<address style="font-size:200%;">NH-24 adhyatmik nagar ,Ajay kumar garg engineering college,</br> ghaziabad, 201009</address>
+<p style="font-size:200%;">Contact : 7007069649<br>
+Email id: rohit.27.singh2000@gmail.com<br>
+<a href="https://github.com/rohitsingh1219"><img src="C:/Users/user/Desktop/github-svg-icon-18.jpg">Github link</a><br>
+<a href="https://www.linkedin.com/in/rohit-singh-967965192/"><br>Linkedin link</a><br>
+</p>
+
+
+
+
+ 
